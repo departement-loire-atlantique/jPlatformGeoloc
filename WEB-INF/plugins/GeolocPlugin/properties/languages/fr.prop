@@ -1,0 +1,12 @@
+plugin.geoloc.maptiler.apikey:clé Maptiler
+
+
+plugin.geoloc.geolocation.types: Types de publication pouvant être géolocalisés
+plugin.geoloc.geolocation: Géolocalisaton par adresse
+plugin.geoloc.geolocation.submit: Géolocaliser
+plugin.geoloc.geolocation.resetPosition: Effacer long/lat
+plugin.geoloc.geolocation.resetAddress: Effacer l'adresse
+
+# Géolocalisation (reprise du chemin "tools" pour rétro-compatibilité avec ancienne extradatas).
+plugin.tools.geolocation.latitude: Latitude
+plugin.tools.geolocation.longitude: Longitude
