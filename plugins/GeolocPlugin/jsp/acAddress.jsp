@@ -41,7 +41,7 @@ if(txtSearch.length() < 3) {%>
 	
 	// Construction de la query pour la BAN. On rajoute "Loire-Atlantique" à la fin pour essayer de limiter les résultats à cette zone.
 	var query = document.getElementById('addressGeocoder').value+" Loire-Atlantique";
-	ajaxGet("https://api-adresse.data.gouv.fr/search/?limit=10&q="+query, function (reponse) {
+	ajaxGet('<%=channel.getProperty("plugin.geoloc.geolocation.api")%>&q='+query, function (reponse) {
 
 	   var obj = JSON.parse(reponse);
 	   var features = obj.features;
