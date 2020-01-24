@@ -9,7 +9,7 @@ Publication pub = channel.getPublication(request.getParameter("id"));
 
 <div class="form-group  widget field-publication">
     <div class="control-label  col-md-3 clearfix" max-width="90%">
-        <label for="addressGeocoder">Adresse</label>
+        <label for="addressGeocoder"><%=glp("plugin.tools.geolocation")%></label>
     </div>
     <div class="widget-content col-md-9">
         <div class="input-group input-group-list-item tab-pane jalios-input-group">
