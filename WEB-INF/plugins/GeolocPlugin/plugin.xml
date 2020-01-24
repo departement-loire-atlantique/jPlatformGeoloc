@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plugin PUBLIC "-//JALIOS//DTD JCMS-PLUGIN 1.7//EN" "https://community.jalios.com/dtd/jcms-plugin-1.7.dtd">
+
+<plugin name="GeolocPlugin" version="0.1" author="DEP44" license="DEP44" initialize="true" jcms="" order="0" url="" jsync="false" appserver="">
+  
+  <label xml:lang="fr">GeolocPlugin</label>
+  <description xml:lang="fr">Ajout des fonctions de géolocalisation pour les types de contenus</description>
+ 
+   <dependencies>
+    <dependency name="SoclePlugin" />
+  </dependencies>
+  
+   <plugincomponents>
+    <channellistener class="fr.cg44.plugin.geoloc.GeolocationChannelListener" />
+  </plugincomponents>
+   
+  <private-files>
+    <directory path="properties" />
+  </private-files>
+  <public-files>
+    <directory path="images" />
+    <directory path="js" />
+    <directory path="docs" />
+    <directory path="jsp" />
+  </public-files>
+</plugin>
+
