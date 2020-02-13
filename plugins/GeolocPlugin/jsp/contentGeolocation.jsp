@@ -128,12 +128,3 @@ btnGeolocElement.on('click', function(){
 });
 
 </jalios:javascript>
-
-<jalios:javascript>
-jQuery(document).ready(function() {
-  jQuery('#AjaxCtxtDeflate').removeAttr("id");
-  jQuery('body').removeAttr("id");
-  jQuery('#CSRFTokenElm').removeAttr("id"); 
-});
-</jalios:javascript>
-
