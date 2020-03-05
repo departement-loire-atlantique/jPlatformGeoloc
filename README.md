@@ -1,4 +1,25 @@
 # jPlatformGeoloc
+
+<p>
+  <a href="https://travis-ci.org/organizations/departement-loire-atlantique">
+    <img src="https://travis-ci.org/departement-loire-atlantique/jPlatformGeoloc.svg?branch=master" />
+  </a>
+  <!--
+  <a href="https://sonarcloud.io/organizations/departement-loire-atlantique">
+    <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformGeoloc&metric=ncloc" />
+    <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformGeoloc&metric=bugs" />
+    <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformGeoloc&metric=code_smells" />
+    <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformGeoloc&metric=coverage" />
+    <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformGeoloc&metric=duplicated_lines_density" />
+    <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformGeoloc&metric=sqale_rating" />
+    <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformGeoloc&metric=alert_status" />
+    <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformGeoloc&metric=reliability_rating" />
+    <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformGeoloc&metric=security_rating" />
+    <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformGeoloc&metric=sqale_index" />
+    <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jPlatformGeoloc&metric=vulnerabilities" />
+    </a>
+    -->
+</p>
 Gestion de la géolocalisation des contenus jPlatform
 
 Ce module remplace celui de Jalios basé sur Google Map. Il permet la géolocalisation en back-office de contenus jPlatform.
