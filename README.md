@@ -1,8 +1,8 @@
 # jPlatformGeoloc
 
 <p>
-  <a href="https://travis-ci.org/organizations/departement-loire-atlantique">
-    <img src="https://travis-ci.org/departement-loire-atlantique/jPlatformGeoloc.svg?branch=master" />
+  <a href="https://travis-ci.com/organizations/departement-loire-atlantique">
+    <img src="https://travis-ci.com/departement-loire-atlantique/jPlatformGeoloc.svg?branch=master" />
   </a>
   <!--
   <a href="https://sonarcloud.io/organizations/departement-loire-atlantique">
