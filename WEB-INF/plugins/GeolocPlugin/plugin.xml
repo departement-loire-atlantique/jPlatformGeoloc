@@ -12,6 +12,7 @@
   
    <plugincomponents>
     <channellistener class="fr.cg44.plugin.geoloc.GeolocationChannelListener" />
+    <datacontroller  class="fr.cg44.plugin.geoloc.datacontroller.FicheEmploiStageDataController" types="FicheEmploiStage" />
   </plugincomponents>
    
   <private-files>
